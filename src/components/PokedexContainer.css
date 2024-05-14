@@ -1,0 +1,40 @@
+.pokedex-container {
+    display: flex;
+    height: 100vh;
+}
+
+.pokemon-list {
+    width: 25%;
+    overflow-y: auto;
+    height: 100%;
+    position: fixed;
+    background-color: #cc0000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-item {
+    background-color: transparent;
+    min-height: 50px;
+}
+
+.pokemon-details {
+    width: 75%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('https://images5.alphacoders.com/608/608323.png');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.pokemon-image {
+    max-width: 50%;
+    max-height: 50vh;
+    aspect-ratio: 1 / 1;        
+}
